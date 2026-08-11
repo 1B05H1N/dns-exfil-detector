@@ -1,5 +1,7 @@
 # dns-exfil-detector
 
+[![CI](https://github.com/1B05H1N/dns-exfil-detector/actions/workflows/ci.yml/badge.svg)](https://github.com/1B05H1N/dns-exfil-detector/actions/workflows/ci.yml)
+
 Detect likely DNS tunneling / exfiltration from query logs. Groups queries by
 registered domain and scores each on subdomain entropy, length, and uniqueness -
 the fingerprints of data smuggled through DNS. Pure Python standard library, no
